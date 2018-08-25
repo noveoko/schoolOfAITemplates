@@ -1,7 +1,7 @@
-# schoolOfAITemplates
+# School of AI: Universal Social Media Graphic Generator
 Social Media Image Templates for the School of AI Global Community
 ## Next Steps
-Flesh-out the code in this repo so that a Dean may generate all of their Social Media images at the click of a button.
+Flesh-out the code in this repo so that all that a dean has to do is place a single image into the `source_images` folder, run the script, enter their *city name* and hit generate. That will create all the required graphics in the dimensions listed below:
 
 ## Feature Development
 1. Place a large resolution image in a folder called 'source_images'
