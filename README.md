@@ -1,5 +1,9 @@
 # School of AI: Universal Social Media Graphic Generator
 Social Media Image Templates for the School of AI Global Community
+
+## Social Media Assets Folder!
+I've just created SVG (Inkscape) templates (Social_Media_Assets) that can be customized with your city name. Just open the file, update your name, and if you want add an image to the background (for example a panorama of your city) and export it and upload it to your social media profile.
+
 ## Next Steps
 Flesh-out the code in this repo so that all that a dean has to do is place a single image into the `source_images` folder, run the script, enter their *city name* and hit generate. That will create all the required graphics in the dimensions listed below:
 
