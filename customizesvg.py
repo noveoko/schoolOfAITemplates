@@ -21,12 +21,10 @@ def replace_city(city="Test City Name"):
             for block in text_blocks:
                 city_span = block.find("tspan")
                 if city_span and len(city_span) > 0:
-                    print(city_span)
                     try:
                         city_span.string = city #change name in SVG to city name
-                        print(city_span)
                         if city_span.string == city:
-                            print("City name changed!")
+                            print(f"City name changed to {city}!")
                     except Exception as ee:
                         print(ee)
             final_soup = soup.prettify
@@ -34,7 +32,7 @@ def replace_city(city="Test City Name"):
             save_name = file.split("/")[-1]
             with open(f"{destination}{save_name}", "w") as savefile:
                 try:
-                    savefile.write(soup.prettify())
+                    savefile.write(str(soup))
                 except Exception as ee2:
                     print(ee2)
 
