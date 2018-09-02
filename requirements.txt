@@ -1,0 +1,3 @@
+svgpathtools
+bs4
+
