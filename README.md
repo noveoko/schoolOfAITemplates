@@ -10,7 +10,9 @@ Supports Python 3.x
 2. Run the script from your command line:
 `python customizesvg.py "Your City Name"`
 
-Open the path `Social_Media_Assets/generated_templates' to review your customized images
+Open the path `Social_Media_Assets/generated_templates' to review your customized images:
+*SVG* contains all of your images as SVG files
+*PNG* contains all of your images as PNG files (ready to upload to Social Media Sites)
 
 ## Bugs and Feature Requests? 
 Please create an issue and I'll try to resolve it ASAP.
