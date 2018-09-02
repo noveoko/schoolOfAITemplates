@@ -2,6 +2,7 @@ import os
 from svgpathtools import svg2paths
 from bs4 import BeautifulSoup as bs
 import sys
+import cairosvg
 
 source = "Social_Media_Assets/original_templates/"
 destination = "Social_Media_Assets/generated_templates/"
@@ -30,11 +31,13 @@ def replace_city(city="Test City Name"):
             final_soup = soup.prettify
             #save updated file to disk
             save_name = file.split("/")[-1]
-            with open(f"{destination}{save_name}", "w") as savefile:
+            just_name = save_name.split(".")[0]
+            with open(f"{destination}svg/{just_name}.svg", "w") as savefile:
                 try:
-                    savefile.write(str(soup))
+                    savefile.write(str(soup)) #save SVG file to SVG folder
                 except Exception as ee2:
                     print(ee2)
+            cairosvg.svg2png(url=f"{destination}svg/{just_name}.svg", write_to=f"{destination}png/{just_name}.png")
 
 
 
