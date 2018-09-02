@@ -13,6 +13,7 @@ Supports Python 3.x
 Open the path `Social_Media_Assets/generated_templates' to review your customized images:
 
 **SVG** contains all of your images as SVG files
+
 **PNG** contains all of your images as PNG files (ready to upload to Social Media Sites)
 
 ## Bugs and Feature Requests? 
