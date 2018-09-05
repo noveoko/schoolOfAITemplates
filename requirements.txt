@@ -1,3 +1,4 @@
 svgpathtools
 bs4
 cairosvg
+argparse
