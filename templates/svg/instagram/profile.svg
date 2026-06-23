@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="320" height="320" viewBox="0 0 320 320">
+  <rect width="320" height="320" fill="#1A1A2E"/>
+  <rect data-field="accent_color" x="0" y="312" width="320" height="8" fill="#FF6B00"/>
+  <rect data-field="accent_color" x="0" y="0" width="19" height="320" fill="#FF6B00" opacity="0.85"/>
+  <image data-field="logo" x="25.6" y="38.4" width="64" height="64" preserveAspectRatio="xMidYMid meet" href="" />
+  <text x="25.6" y="57.599999999999994" fill="#AAAAAA" font-family="Arial, Helvetica, sans-serif" font-size="12px">Instagram Profile</text>
+  <text data-field="city" x="25.6" y="183.2" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold"><tspan>School of AI</tspan></text>
+</svg>

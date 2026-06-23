@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1128" height="191" viewBox="0 0 1128 191">
+  <rect width="1128" height="191" fill="#1A1A2E"/>
+  <rect data-field="accent_color" x="0" y="183" width="1128" height="8" fill="#FF6B00"/>
+  <rect data-field="accent_color" x="0" y="0" width="67" height="191" fill="#FF6B00" opacity="0.85"/>
+  <image data-field="logo" x="90.24" y="22.919999999999998" width="38" height="38" preserveAspectRatio="xMidYMid meet" href="" />
+  <text x="90.24" y="34.379999999999995" fill="#AAAAAA" font-family="Arial, Helvetica, sans-serif" font-size="12px">LinkedIn Company</text>
+  <text data-field="city" x="90.24" y="109.75" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="17px" font-weight="bold"><tspan>School of AI</tspan></text><text data-field="tagline" x="90.24" y="132.15" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal"><tspan>Learn AI Together</tspan></text><text data-field="url" x="90.24" y="154.55" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal"><tspan>schoolof.ai/chapter</tspan></text>
+</svg>

@@ -1,0 +1,28 @@
+chapter:
+  city: "San Francisco"
+  tagline: "Learn AI Together"
+  url: "https://schoolof.ai/sf"
+  accent_color: "#FF6B00"
+  logo: "./assets/chapter-logo.png"
+
+event:
+  title: "Intro to LLMs"
+  date: "March 15, 2026"
+  speakers:
+    - "Jane Doe"
+    - "John Smith"
+
+output:
+  platforms:
+    - facebook
+    - instagram
+    - linkedin
+    - x
+    - youtube
+    - tiktok
+    - pinterest
+    - threads
+    - meetup
+  formats: [png, webp]
+  scale: 2
+  output_dir: output

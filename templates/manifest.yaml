@@ -1,0 +1,292 @@
+version: "2026.1"
+brand_defaults:
+  accent_color: "#FF6B00"
+  tagline: "Learn AI Together"
+  background: "#1A1A2E"
+
+platforms:
+  facebook:
+    label: Facebook
+    templates:
+      - id: page_cover
+        file: facebook/page_cover.svg
+        width: 851
+        height: 315
+        aspect: "2.7:1"
+        placement: page_cover
+        label: Page Cover Photo
+        safe_zone: { x: 15, y: 0, w: 820, h: 312 }
+        fields: [city, tagline, logo, accent_color]
+        legacy: true
+      - id: profile
+        file: facebook/profile.svg
+        width: 360
+        height: 360
+        aspect: "1:1"
+        placement: profile
+        label: Profile Photo
+        safe_zone: { x: 40, y: 40, w: 280, h: 280 }
+        fields: [city, logo, accent_color]
+      - id: group_cover
+        file: facebook/group_cover.svg
+        width: 1640
+        height: 856
+        aspect: "1.91:1"
+        placement: group_cover
+        label: Group Cover Photo
+        safe_zone: { x: 80, y: 40, w: 1480, h: 776 }
+        fields: [city, tagline, logo, accent_color]
+        legacy: true
+      - id: group_header
+        file: facebook/group_header.svg
+        width: 851
+        height: 315
+        aspect: "2.7:1"
+        placement: group_header
+        label: Group Header
+        safe_zone: { x: 15, y: 0, w: 820, h: 312 }
+        fields: [city, tagline, logo, accent_color]
+        legacy: true
+      - id: feed_image
+        file: facebook/feed_image.svg
+        width: 1200
+        height: 630
+        aspect: "1.91:1"
+        placement: feed
+        label: Feed Image
+        safe_zone: { x: 60, y: 40, w: 1080, h: 550 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+      - id: story
+        file: facebook/story.svg
+        width: 1080
+        height: 1920
+        aspect: "9:16"
+        placement: story
+        label: Story
+        safe_zone: { x: 120, y: 250, w: 840, h: 1350 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+      - id: event_cover
+        file: facebook/event_cover.svg
+        width: 1920
+        height: 1005
+        aspect: "1.91:1"
+        placement: event
+        label: Event Cover
+        safe_zone: { x: 60, y: 40, w: 1800, h: 800 }
+        fields: [city, event_title, event_date, url, logo, accent_color, speakers]
+
+  instagram:
+    label: Instagram
+    templates:
+      - id: feed_portrait
+        file: instagram/feed_portrait.svg
+        width: 1080
+        height: 1350
+        aspect: "4:5"
+        placement: feed
+        label: Feed Portrait (Recommended)
+        safe_zone: { x: 0, y: 135, w: 1080, h: 1080 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+      - id: feed_square
+        file: instagram/feed_square.svg
+        width: 1080
+        height: 1080
+        aspect: "1:1"
+        placement: feed_square
+        label: Feed Square
+        safe_zone: { x: 60, y: 60, w: 960, h: 960 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+      - id: story
+        file: instagram/story.svg
+        width: 1080
+        height: 1920
+        aspect: "9:16"
+        placement: story
+        label: Story / Reel Cover
+        safe_zone: { x: 120, y: 250, w: 840, h: 1350 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+      - id: profile
+        file: instagram/profile.svg
+        width: 320
+        height: 320
+        aspect: "1:1"
+        placement: profile
+        label: Profile Photo
+        safe_zone: { x: 20, y: 20, w: 280, h: 280 }
+        fields: [city, logo, accent_color]
+
+  linkedin:
+    label: LinkedIn
+    templates:
+      - id: personal_banner
+        file: linkedin/personal_banner.svg
+        width: 1584
+        height: 396
+        aspect: "4:1"
+        placement: personal_banner
+        label: Personal Profile Banner
+        safe_zone: { x: 400, y: 40, w: 1100, h: 316 }
+        fields: [city, tagline, url, logo, accent_color]
+      - id: post_landscape
+        file: linkedin/post_landscape.svg
+        width: 1200
+        height: 627
+        aspect: "1.91:1"
+        placement: post
+        label: Post Image (Landscape)
+        safe_zone: { x: 100, y: 63, w: 1000, h: 500 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+        legacy: true
+      - id: post_square
+        file: linkedin/post_square.svg
+        width: 1200
+        height: 1200
+        aspect: "1:1"
+        placement: post_square
+        label: Post Image (Square)
+        safe_zone: { x: 80, y: 80, w: 1040, h: 1040 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+      - id: company_banner
+        file: linkedin/company_banner.svg
+        width: 1128
+        height: 191
+        aspect: "5.9:1"
+        placement: company_banner
+        label: Company Page Banner
+        safe_zone: { x: 300, y: 20, w: 780, h: 151 }
+        fields: [city, tagline, url, logo, accent_color]
+      - id: newsletter
+        file: linkedin/newsletter.svg
+        width: 744
+        height: 400
+        aspect: "1.86:1"
+        placement: newsletter
+        label: Newsletter Cover
+        safe_zone: { x: 40, y: 40, w: 664, h: 320 }
+        fields: [city, tagline, event_title, logo, accent_color]
+
+  x:
+    label: X
+    templates:
+      - id: header
+        file: x/header.svg
+        width: 1500
+        height: 500
+        aspect: "3:1"
+        placement: header
+        label: Profile Header
+        safe_zone: { x: 400, y: 40, w: 1000, h: 420 }
+        fields: [city, tagline, url, logo, accent_color]
+        legacy: true
+      - id: profile
+        file: x/profile.svg
+        width: 400
+        height: 400
+        aspect: "1:1"
+        placement: profile
+        label: Profile Photo
+        safe_zone: { x: 40, y: 40, w: 320, h: 320 }
+        fields: [city, logo, accent_color]
+        legacy: true
+      - id: post_image
+        file: x/post_image.svg
+        width: 1600
+        height: 900
+        aspect: "16:9"
+        placement: post
+        label: Post Image
+        safe_zone: { x: 80, y: 45, w: 1440, h: 810 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+
+  youtube:
+    label: YouTube
+    templates:
+      - id: channel_art
+        file: youtube/channel_art.svg
+        width: 2560
+        height: 1440
+        aspect: "16:9"
+        placement: channel_art
+        label: Channel Art
+        safe_zone: { x: 507, y: 508, w: 1546, h: 423 }
+        fields: [city, tagline, url, logo, accent_color]
+      - id: thumbnail
+        file: youtube/thumbnail.svg
+        width: 1280
+        height: 720
+        aspect: "16:9"
+        placement: thumbnail
+        label: Video Thumbnail
+        safe_zone: { x: 80, y: 45, w: 1120, h: 630 }
+        fields: [city, event_title, event_date, logo, accent_color, speakers]
+      - id: shorts_cover
+        file: youtube/shorts_cover.svg
+        width: 1080
+        height: 1920
+        aspect: "9:16"
+        placement: shorts
+        label: Shorts Cover
+        safe_zone: { x: 120, y: 250, w: 840, h: 1350 }
+        fields: [city, tagline, event_title, logo, accent_color]
+
+  tiktok:
+    label: TikTok
+    templates:
+      - id: profile
+        file: tiktok/profile.svg
+        width: 400
+        height: 400
+        aspect: "1:1"
+        placement: profile
+        label: Profile Photo
+        safe_zone: { x: 40, y: 40, w: 320, h: 320 }
+        fields: [city, logo, accent_color]
+      - id: cover
+        file: tiktok/cover.svg
+        width: 1080
+        height: 1920
+        aspect: "9:16"
+        placement: cover
+        label: Cover Image
+        safe_zone: { x: 120, y: 250, w: 840, h: 1350 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+
+  pinterest:
+    label: Pinterest
+    templates:
+      - id: standard_pin
+        file: pinterest/standard_pin.svg
+        width: 1000
+        height: 1500
+        aspect: "2:3"
+        placement: pin
+        label: Standard Pin
+        safe_zone: { x: 60, y: 80, w: 880, h: 1340 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+
+  threads:
+    label: Threads
+    templates:
+      - id: feed_portrait
+        file: threads/feed_portrait.svg
+        width: 1080
+        height: 1350
+        aspect: "4:5"
+        placement: feed
+        label: Feed Portrait
+        safe_zone: { x: 0, y: 135, w: 1080, h: 1080 }
+        fields: [city, tagline, event_title, event_date, url, logo, accent_color, speakers]
+
+  meetup:
+    label: Meetup
+    templates:
+      - id: group_photo
+        file: meetup/group_photo.svg
+        width: 600
+        height: 338
+        aspect: "1.77:1"
+        placement: group
+        label: Group Photo
+        safe_zone: { x: 30, y: 20, w: 540, h: 298 }
+        fields: [city, tagline, logo, accent_color]
+        legacy: true

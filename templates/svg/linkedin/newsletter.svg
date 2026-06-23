@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="744" height="400" viewBox="0 0 744 400">
+  <rect width="744" height="400" fill="#1A1A2E"/>
+  <rect data-field="accent_color" x="0" y="392" width="744" height="8" fill="#FF6B00"/>
+  <rect data-field="accent_color" x="0" y="0" width="44" height="400" fill="#FF6B00" opacity="0.85"/>
+  <image data-field="logo" x="59.52" y="48.0" width="80" height="80" preserveAspectRatio="xMidYMid meet" href="" />
+  <text x="59.52" y="72.0" fill="#AAAAAA" font-family="Arial, Helvetica, sans-serif" font-size="12px">LinkedIn Newsletter</text>
+  <text data-field="city" x="59.52" y="230.4" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="36px" font-weight="bold"><tspan>School of AI</tspan></text><text data-field="tagline" x="59.52" y="252.8" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal"><tspan>Learn AI Together</tspan></text><text data-field="event_title" x="59.52" y="283.6" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="22px" font-weight="bold"><tspan>Intro to LLMs</tspan></text>
+</svg>

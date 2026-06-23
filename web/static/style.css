@@ -1,0 +1,141 @@
+:root {
+  --bg: #0f1117;
+  --panel: #171b24;
+  --text: #f4f6fb;
+  --muted: #9aa3b2;
+  --accent: #ff6b00;
+  --border: #2a3140;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: radial-gradient(circle at top, #1a2030, var(--bg));
+  color: var(--text);
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 960px) {
+  .layout {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+  header { grid-column: 1 / -1; }
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+header p { color: var(--muted); margin: 0; }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.25rem;
+}
+
+h2 {
+  margin: 1.25rem 0 0.75rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+h2:first-child { margin-top: 0; }
+
+label {
+  display: block;
+  margin-bottom: 0.85rem;
+  font-size: 0.92rem;
+}
+
+label.inline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input, select, button {
+  width: 100%;
+  margin-top: 0.35rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0d1018;
+  color: var(--text);
+  padding: 0.65rem 0.75rem;
+}
+
+input[type="color"] {
+  height: 42px;
+  padding: 0.2rem;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #10141d;
+  margin: 0;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#preview-btn {
+  background: transparent;
+}
+
+#generate-btn {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #111;
+}
+
+#preview-image {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #0d1018;
+}
+
+#preview-status {
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+  min-height: 1.25rem;
+}

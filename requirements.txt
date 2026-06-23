@@ -1,4 +1,13 @@
-svgpathtools
-bs4
+beautifulsoup4
 cairosvg
-argparse
+lxml
+pydantic
+pyyaml
+pillow
+svglib
+reportlab
+fastapi
+uvicorn
+python-multipart
+jinja2
+pytest

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School of AI Template Generator</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main class="layout">
+    <header>
+      <h1>School of AI Template Generator</h1>
+      <p>2026-ready social media assets for every major platform.</p>
+    </header>
+
+    <section class="panel form-panel">
+      <form id="generator-form">
+        <h2>Chapter Branding</h2>
+        <label>City / Chapter <input name="city" value="{{ defaults.city }}" required /></label>
+        <label>Tagline <input name="tagline" value="{{ defaults.tagline }}" /></label>
+        <label>URL <input name="url" value="{{ defaults.url }}" /></label>
+        <label>Accent Color <input name="accent_color" type="color" value="{{ defaults.accent_color }}" /></label>
+        <label>Logo <input name="logo" type="file" accept="image/*" /></label>
+
+        <h2>Event (optional)</h2>
+        <label>Event Title <input name="event_title" value="{{ defaults.event_title }}" /></label>
+        <label>Event Date <input name="event_date" value="{{ defaults.event_date }}" /></label>
+        <label>Speakers <input name="speakers" value="{{ defaults.speakers }}" placeholder="Comma-separated" /></label>
+
+        <h2>Platforms</h2>
+        <div class="chips">
+          {% for platform in platforms %}
+          <label class="chip"><input type="checkbox" name="platform" value="{{ platform.id }}" checked /> {{ platform.label }}</label>
+          {% endfor %}
+        </div>
+
+        <h2>Preview</h2>
+        <label>Template
+          <select name="template_id" id="template_id">
+            {% for template in template_options %}
+            <option value="{{ template.key }}">{{ template.platform }} — {{ template.label }} ({{ template.size }})</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="inline"><input type="checkbox" name="show_safe_zone" id="show_safe_zone" /> Show safe zone</label>
+
+        <div class="actions">
+          <button type="button" id="preview-btn">Preview</button>
+          <button type="submit" id="generate-btn">Download ZIP</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel preview-panel">
+      <h2>Live Preview</h2>
+      <div id="preview-status">Select a template and click Preview.</div>
+      <img id="preview-image" alt="Template preview" hidden />
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

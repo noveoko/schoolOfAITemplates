@@ -1,0 +1,11 @@
+---
+pid: 30332
+cwd: "D:\Non App Data\projects\schoolOfAITemplates"
+command: "wsl -e bash -lc \"cd '/mnt/d/Non App Data/projects/schoolOfAITemplates' && .venv/bin/uvicorn web.app:app --port 8001 --host 127.0.0.1\" "
+started_at: 2026-06-23T19:05:11.420Z
+running_for_ms: 374998   
+---
+INFO:     Started server process [3525]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)

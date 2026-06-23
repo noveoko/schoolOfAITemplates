@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2560" height="1440" viewBox="0 0 2560 1440">
+  <rect width="2560" height="1440" fill="#1A1A2E"/>
+  <rect data-field="accent_color" x="0" y="1423" width="2560" height="17" fill="#FF6B00"/>
+  <rect data-field="accent_color" x="0" y="0" width="153" height="1440" fill="#FF6B00" opacity="0.85"/>
+  <image data-field="logo" x="204.8" y="172.79999999999998" width="288" height="288" preserveAspectRatio="xMidYMid meet" href="" />
+  <text x="204.8" y="259.2" fill="#AAAAAA" font-family="Arial, Helvetica, sans-serif" font-size="36px">YouTube Channel</text>
+  <text data-field="city" x="204.8" y="828.6" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="129px" font-weight="bold"><tspan>School of AI</tspan></text><text data-field="tagline" x="204.8" y="908.4" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="57px" font-weight="normal"><tspan>Learn AI Together</tspan></text><text data-field="url" x="204.8" y="968.6" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="43px" font-weight="normal"><tspan>schoolof.ai/chapter</tspan></text>
+</svg>

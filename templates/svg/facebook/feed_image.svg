@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1A1A2E"/>
+  <rect data-field="accent_color" x="0" y="622" width="1200" height="8" fill="#FF6B00"/>
+  <rect data-field="accent_color" x="0" y="0" width="72" height="630" fill="#FF6B00" opacity="0.85"/>
+  <image data-field="logo" x="96.0" y="75.6" width="126" height="126" preserveAspectRatio="xMidYMid meet" href="" />
+  <text x="96.0" y="113.39999999999999" fill="#AAAAAA" font-family="Arial, Helvetica, sans-serif" font-size="15px">Facebook Feed</text>
+  <text data-field="city" x="96.0" y="361.9" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="56px" font-weight="bold"><tspan>School of AI</tspan></text><text data-field="tagline" x="96.0" y="396.9" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="25px" font-weight="normal"><tspan>Learn AI Together</tspan></text><text data-field="event_title" x="96.0" y="444.5" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34px" font-weight="bold"><tspan>Intro to LLMs</tspan></text><text data-field="event_date" x="96.0" y="476.7" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="23px" font-weight="normal"><tspan>March 15, 2026</tspan></text><text data-field="speakers" x="96.0" y="504.7" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal"><tspan>Jane Doe, John Smith</tspan></text><text data-field="url" x="96.0" y="529.9" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="normal"><tspan>schoolof.ai/chapter</tspan></text>
+</svg>
